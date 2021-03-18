@@ -2372,6 +2372,7 @@ tbody.collapse.in{
     text-decoration:none;
     background-color:transparent
 }
+
 .nav>li.disabled>a{
     color:#777
 }
@@ -2836,7 +2837,8 @@ tbody.collapse.in{
 }
 .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{
     color:#555;
-    background-color:transparent
+    background-color:transparent;
+    font-weight:700
 }
 .navbar-default .navbar-nav>.disabled>a,.navbar-default .navbar-nav>.disabled>a:focus,.navbar-default .navbar-nav>.disabled>a:hover{
     color:#ccc;
@@ -3825,7 +3827,7 @@ textarea{
     padding:2rem 5rem;
     position:relative;
     width:80%;
-    margin:-10em auto 20px
+    margin:-3em auto 20px
 }
 @media (max-width:992px){
     .card-container{
@@ -3837,7 +3839,7 @@ textarea{
     .card-container.card-container-lg{
         width:95%;
         padding:2rem 3em;
-        margin-top:-10em
+        margin-top:-3em
     }
 }
 .black-image-project-hover{
@@ -3991,9 +3993,14 @@ textarea{
     -o-transition:all .1s linear;
     transition:all .1s linear
 }
+
+
 .nav>li>a.active,.nav>li>a:hover{
-    font-weight:700
+    font-weight:bold
 }
+
+
+
 .nav.navbar-small>li>a{
     font-size:11px
 }
